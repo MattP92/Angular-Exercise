@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html  ng-app='app'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h3> Adjective: <input placeholder="Enter an adjective" type="text"  ng-model="Adjective"/> Answer: <input placeholder="Enter an answer" type="text"  ng-model="Answer"/> </h3>
+    <p>AngularJS is {{Adjective}}! Also, I'm good at Math. For example, I know that {{"2+2"}} equals {{Answer}}. <span>That answer is {{Answer == 4}} </span></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
